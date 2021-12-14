@@ -1,5 +1,5 @@
-# Start from the code-server Debian base image
-FROM codercom/code-server:3.10.2
+FROM ubuntu:20.04 as ubuntu-base
+RUN apt-get update && apt-get install -y curl git unzip wget
 
 # Switch to root user
 USER root
