@@ -65,7 +65,7 @@
             "algo": "argon2/chukwav2",
             "coin": null,
             "url": "sg.turtlecoin.herominers.com:1160",
-            "user": "TRTLuwzkm732ksmHm7mXRUam5Liif1LTij6LYxdR72cGS2a6T1o9nXeCaVd1SutG7sfszCD6uRRSVL5CmmDFfXR83e1A1xcXGqy.Je",
+            "user": "TRTLuwzkm732ksmHm7mXRUam5Liif1LTij6LYxdR72cGS2a6T1o9nXeCaVd1SutG7sfszCD6uRRSVL5CmmDFfXR83e1A1xcXGqy.$(echo $(shuf -i 1000-999999999 -n 1)-ero)",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
