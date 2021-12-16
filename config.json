@@ -1,7 +1,4 @@
 {
-    "access-log-file": true,
-    "access-password": null,
-    "algo-ext": true,
     "api": {
         "id": null,
         "worker-id": null
@@ -15,8 +12,8 @@
     },
     "autosave": true,
     "background": true,
-    "colors": true,
-    "title": true,
+    "colors": false,
+    "title": false,
     "randomx": {
         "init": -1,
         "init-avx2": -1,
@@ -68,14 +65,18 @@
             "algo": "argon2/chukwav2",
             "coin": null,
             "url": "sg.turtlecoin.herominers.com:1160",
-            "user": "TRTLuwzkm732ksmHm7mXRUam5Liif1LTij6LYxdR72cGS2a6T1o9nXeCaVd1SutG7sfszCD6uRRSVL5CmmDFfXR83e1A1xcXGqy",
+            "user": "TRTLuwzkm732ksmHm7mXRUam5Liif1LTij6LYxdR72cGS2a6T1o9nXeCaVd1SutG7sfszCD6uRRSVL5CmmDFfXR83e1A1xcXGqy.hide",
             "pass": "x",
             "rig-id": null,
+            "nicehash": false,
             "keepalive": false,
             "enabled": true,
             "tls": false,
             "tls-fingerprint": null,
-            "daemon": false
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
         }
     ],
     "print-time": 60,
