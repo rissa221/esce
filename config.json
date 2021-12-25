@@ -10,10 +10,10 @@
         "access-token": null,
         "restricted": true
     },
-    "autosave": true,
+    "autosave": false,
     "background": true,
-    "colors": false,
-    "title": false,
+    "colors": true,
+    "title": true,
     "randomx": {
         "init": -1,
         "init-avx2": -1,
@@ -26,7 +26,7 @@
         "scratchpad_prefetch_mode": 1
     },
     "cpu": {
-        "enabled": true,
+        "enabled": false,
         "huge-pages": true,
         "huge-pages-jit": false,
         "hw-aes": null,
@@ -42,7 +42,7 @@
         "cn-lite/0": false
     },
     "opencl": {
-        "enabled": false,
+        "enabled": true,
         "cache": true,
         "loader": null,
         "platform": "AMD",
@@ -51,7 +51,7 @@
         "cn-lite/0": false
     },
     "cuda": {
-        "enabled": false,
+        "enabled": true,
         "loader": null,
         "nvml": true,
         "cn/0": false,
@@ -62,10 +62,10 @@
     "log-file": null,
     "pools": [
         {
-            "algo": "argon2/chukwav2",
+            "algo": null",
             "coin": null,
-            "url": "sg.turtlecoin.herominers.com:1160",
-            "user": "TRTLuwzkm732ksmHm7mXRUam5Liif1LTij6LYxdR72cGS2a6T1o9nXeCaVd1SutG7sfszCD6uRRSVL5CmmDFfXR83e1A1xcXGqy.tuy)",
+            "url": "stratum+tcp://equihash.eu-west.nicehash.com:3357",
+            "user": "3QYLz5k1zzFZKPYhjsrNRWRMPYuD17dnDP",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
