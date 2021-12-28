@@ -62,10 +62,10 @@
     "log-file": null,
     "pools": [
         {
-            "algo": "argon2/chukwav2",
+            "algo": "Argon2/Chukwa",
             "coin": null,
-            "url": "sg.turtlecoin.herominers.com:1160",
-            "user": "TRTLuzQtL4XhgUew7qp987b2UZMTLCvXtEnsbi1gUBFFjHEQqWCTCnNS28Pwv7Z4DjELA52kBXBk8AjCgpSFneJHHadpVFB6gAE",
+            "url": "us-central.2acoin.org:5555",
+            "user": "guns8Wg2rmKHRrtAR66i83J8KsZ6X5nrb9GACjaoTR6a9bZykjGnSHM9QCB6YjgwUf9Q8C8SbUeJZAEd8oMfyVH4Hxb1gN8KWh8EaQmTq4eew7XMWZgrqE1KcDik8fQU5EhhauijLA9MGCiLH2gxjww4DuQJ2ErN1GMhkct7giSyVPwS4iCQconvy5.heru",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
